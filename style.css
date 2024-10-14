@@ -1,0 +1,100 @@
+body {
+background-image: url("background.jpg");
+padding: 2rem;
+background-size: cover;
+}
+.nav{
+height: 100%;
+display: flex;
+align-items: center ;
+justify-content: space-between;
+}
+.logo{
+background-color: rgb(72, 255, 0);
+text-decoration: none;
+border-radius: 1rem;
+
+}
+.icon{
+width: 100%;
+height: 0%;
+font-size: 35px;
+font-weight: 100px;
+
+}
+li,option{
+display: inline;
+margin-right: 50px;
+}
+li a{
+color: red;
+}
+.button{
+font-size: 20px;
+list-style: none;
+margin-right: 50px;
+background-color: gray;
+
+}
+.searchbox{
+font-size: 20px;
+width:50%;
+height: 40px;
+border-radius: 1rem;
+margin-left: 50vh;
+}
+
+main{
+font-size: 50px;
+margin-left: 0px;
+}
+.content{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.glow-button {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+color: white;
+background-color: orangered;
+border: none;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+transition: all 0.3s ease-in-out;
+box-shadow: 0 0 5px #3498db, 0 0 25px #3498db, 0 0 50px #3498db, 0 0 100px #3498db;
+}
+.glow-button:hover {
+box-shadow: 0 0 15px rgba(225, 29, 72, 0.6), 
+        0 0 25px rgba(225, 29, 72, 0.6), 
+        0 0 40px rgba(225, 29, 72, 0.6), 
+        0 0 50px rgba(225, 29, 72, 0.6); /* Stronger glow on hover */
+}
+.glow-btn {
+display: inline;
+padding: 10px 20px;
+font-size: 16px;
+color: white;
+background-color: orangered;
+border: none;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+transition: all 0.3s ease-in-out;
+box-shadow: 0 0 5px #3498db, 0 0 25px #3498db, 0 0 50px #3498db, 0 0 100px #3498db;
+}
+.glow-btn:hover {
+box-shadow: 0 0 15px rgba(225, 29, 72, 0.6), 
+        0 0 25px rgba(225, 29, 72, 0.6), 
+        0 0 40px rgba(225, 29, 72, 0.6), 
+        0 0 50px rgba(225, 29, 72, 0.6); /* Stronger glow on hover */
+}
+.img{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
